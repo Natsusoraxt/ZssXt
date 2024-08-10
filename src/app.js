@@ -3,7 +3,6 @@ import StyleEditor from './styleEditor';
 import Heart from './heart';
 import HeartRain from './heartRain';
 
-document.getElementById('app').innerHTML = '<h1>你好，诗施宝贝！</h1>';
 const isPc = (function () {
     var userAgentInfo = navigator.userAgent;
     var Agents = ["Android", "iPhone",
